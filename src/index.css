@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #1b2b25;
+  --radius: 0.625rem;
+  --background: #fff;
+  --secondary: #2f2f2f;
+  --secondary-light: #6A6A6A;
+  
+  --neutral: #E5E5E5;
+  --accent: #f9bf29;
+  --header-background: #3a5c4f;
+
+  /* --card: oklch(1 0 0); */
+}
+
+@layer utilities {
+  .btn-primary {
+    color: var(--background);
+    background-color: var(--primary);
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    border: none;
+  }
+  .btn-primary:hover {
+    color: var(--primary);
+    background-color: transparent;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    border: 1px solid var(--primary);
+  }
+  .btn-secondary {
+    color: var(--secondary);
+    background-color: var(--accent);
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    border: none;
+  }
+  .btn-secondary:hover {
+    color: var(--background);
+    background-color: transparent;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    border: 1px solid var(--background);
+  }
+  .btn-outline {
+    color: var(--background);
+    background-color: transparent;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    border: 1px solid #fff;
+  }
+  .btn-outline:hover {
+    color: var(--secondary);
+    background-color: var(--accent);
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    border: none;
+  }
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-header: var(--header-background);
+  --color-background: var(--background);
+  --color-accent: var(--accent);
+  --color-neutral: var(--neutral);
+  --color-secondary: var(--secondary);
+  --color-secondary-light: var(--secondary-light);
+}
+
+* {
+  /* outline: 1px solid red; */
+  box-sizing: border-box;
+}
+
+#root {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
