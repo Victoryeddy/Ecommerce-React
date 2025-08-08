@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <>
       <div className="pt-10">
-        <div className="container mx-auto max-w-5xl flex justify-between items-center">
+        <div className="container mx-auto max-w-6xl flex justify-between items-center">
           <div className="">
             <Link
               to="/"

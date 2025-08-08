@@ -11,7 +11,7 @@ export default function Header() {
           <Navbar />
 
           <div className="pt-[6rem] pb-[4rem]">
-            <div className="lg:flex max-w-5xl mx-auto gap-2">
+            <div className="lg:flex max-w-6xl mx-auto gap-2">
               <div className="w-full lg:w-[40%]">
                 <p>
                   <button
