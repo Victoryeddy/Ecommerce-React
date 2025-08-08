@@ -24,7 +24,7 @@ export default function WhyChooseUs() {
       <div className="bg-neutral min-h-[100vh]">
         <div className="container mx-auto px-6">
           <div className="pt-[6rem] pb-[4rem]">
-            <div className="lg:flex max-w-6xl mx-auto gap-4"  data-aos="fade-right" data-aos-delay="1000">
+            <div className="lg:flex max-w-6xl mx-auto gap-4"  data-aos="fade-right" data-aos-delay="800">
               <div className="w-full lg:w-[30%]">
                 <h1 className="text-secondary text-2xl lg:text-3xl font-semibold pt-5">
                   Crafted with <br className="hidden lg:flex" /> excellent{" "}
@@ -135,7 +135,7 @@ export default function WhyChooseUs() {
               </div>
             </div>
 
-            <div className="lg:flex max-w-6xl mx-auto mt-[9rem] " data-aos="fade-left" data-aos-delay="1000">
+            <div className="lg:flex max-w-6xl mx-auto mt-[9rem] " data-aos="fade-left" data-aos-delay="800">
               <div className="w-full lg:[50%]">
                 <h1 className="text-secondary text-2xl lg:text-3xl font-semibold pt-5">
                   Why Choose Us
@@ -210,7 +210,7 @@ export default function WhyChooseUs() {
               </div>
             </div>
 
-            <div className="lg:flex max-w-6xl mx-auto mt-[10rem]" data-aos="fade-right" data-aos-delay="1000">
+            <div className="lg:flex max-w-6xl mx-auto mt-[10rem]" data-aos="fade-right" data-aos-delay="800">
               <div className="w-full lg:w-[50%] relative">
                 <img
                   src={InteriorOne}
@@ -274,7 +274,7 @@ export default function WhyChooseUs() {
             </div>
 
 
-            <div className=" max-w-6xl mx-auto mt-[10rem]" data-aos="fade-left" data-aos-delay="1000">
+            <div className=" max-w-6xl mx-auto mt-[10rem]" data-aos="fade-left" data-aos-delay="800">
                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                   <div className="p-5 relative group">
                     <div className="">
