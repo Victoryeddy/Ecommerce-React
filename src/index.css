@@ -85,3 +85,17 @@
   margin: 0;
   font-family: "Inter", sans-serif;
 }
+
+.swiper-pagination-bullet {
+  background: #6b7280;
+  opacity: 0.5;
+  width: 12px;
+  height: 12px;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--primary) !important;
+  opacity: 1;
+}
+
+

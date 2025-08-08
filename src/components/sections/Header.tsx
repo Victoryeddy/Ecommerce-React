@@ -6,11 +6,11 @@ import FurnitureOverlay from "@/assets/SVG/furniture-overlay.svg"
 export default function Header() {
   return (
     <>
-      <header className="bg-header min-h-[80vh]">
+      <header className="bg-header min-h-[50vh]">
         <div className="container mx-auto px-4">
           <Navbar />
 
-          <div className="pt-[6rem] pb-[4rem]">
+          <div className="pt-[6rem] pb-4">
             <div className="lg:flex max-w-6xl mx-auto gap-2">
               <div className="w-full lg:w-[40%]">
                 <p>
