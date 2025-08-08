@@ -10,9 +10,9 @@ export default function Header() {
         <div className="container mx-auto px-4">
           <Navbar />
 
-          <div className="pt-[6rem] pb-4">
+          <div className="pt-[6rem] pb-[3rem]">
             <div className="lg:flex max-w-6xl mx-auto gap-2">
-              <div className="w-full lg:w-[40%]">
+              <div className="w-full lg:w-[40%]" data-aos="fade-left" data-aos-delay="600">
                 <p>
                   <button
                     className="bg-white/20 text-white  backdrop-blur-md border-0 py-1 px-4 rounded-full text-sm font-medium"
@@ -33,7 +33,7 @@ export default function Header() {
                 </div>
               </div>
 
-              <div className="w-full lg:w-[60%] ">
+              <div className="w-full lg:w-[60%] " data-aos="fade-right" data-aos-delay="600">
                 <div className="lg:flex hidden relative">
 
                 <img src={Furniture} alt="" className="z-[99999]"/>

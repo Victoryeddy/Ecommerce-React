@@ -30,7 +30,7 @@ export default function Navbar() {
             onClick={toggleMenu}
             aria-label="Toggle menu"
           >
-            <span className="block w-6 h-0.5 bg-gray-700 relative before:content-[''] before:block before:w-6 before:h-0.5 before:bg-gray-700 before:absolute before:-top-2 after:content-[''] after:block after:w-6 after:h-0.5 after:bg-gray-700 after:absolute after:-bottom-2"></span>
+            <span className="block w-6 h-0.5 bg-white relative before:content-[''] before:block before:w-6 before:h-0.5 before:bg-white before:absolute before:-top-2 after:content-[''] after:block after:w-6 after:h-0.5 after:bg-white after:absolute after:-bottom-2"></span>
           </button>
 
           <nav
