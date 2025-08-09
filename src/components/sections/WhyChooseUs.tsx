@@ -15,8 +15,7 @@ import ChooseUsOverlay from "@/assets/SVG/whyoverlay.svg";
 
 import InteriorOverlay from "@/assets/SVG/interiorOverlay.svg";
 import InteriorOne from "@/assets/interior1.png";
-// import InteriorTwo from "@/assets/interior2.png";
-// import InteriorThree from "@/assets/interior3.png";
+
 
 export default function WhyChooseUs() {
   return (
@@ -24,7 +23,7 @@ export default function WhyChooseUs() {
       <div className="bg-neutral min-h-[100vh]">
         <div className="container mx-auto px-6">
           <div className="pt-[6rem] pb-[4rem]">
-            <div className="lg:flex max-w-6xl mx-auto gap-4"  data-aos="fade-right" data-aos-delay="800">
+            <div className="lg:flex max-w-6xl mx-auto gap-4"  data-aos="fade-right" data-aos-delay="500">
               <div className="w-full lg:w-[30%]">
                 <h1 className="text-secondary text-2xl lg:text-3xl font-semibold pt-5">
                   Crafted with <br className="hidden lg:flex" /> excellent{" "}
@@ -135,7 +134,7 @@ export default function WhyChooseUs() {
               </div>
             </div>
 
-            <div className="lg:flex max-w-6xl mx-auto mt-[9rem] " data-aos="fade-left" data-aos-delay="800">
+            <div className="lg:flex max-w-6xl mx-auto mt-[9rem] " data-aos="fade-left" data-aos-delay="500" id="services">
               <div className="w-full lg:[50%]">
                 <h1 className="text-secondary text-2xl lg:text-3xl font-semibold pt-5">
                   Why Choose Us
@@ -210,7 +209,7 @@ export default function WhyChooseUs() {
               </div>
             </div>
 
-            <div className="lg:flex max-w-6xl mx-auto mt-[10rem]" data-aos="fade-right" data-aos-delay="800">
+            <div className="lg:flex max-w-6xl mx-auto mt-[10rem]" data-aos="fade-right" data-aos-delay="500">
               <div className="w-full lg:w-[50%] relative">
                 <img
                   src={InteriorOne}
@@ -234,7 +233,7 @@ export default function WhyChooseUs() {
                 />
               </div>
 
-              <div className="w-full lg:[50%]">
+              <div className="w-full lg:[50%]" id="aboutUs">
                 <div className="lg:max-w-xl lg:ms-auto">
                   <h1 className="text-secondary text-2xl lg:text-3xl font-semibold pt-5">
                     We Help You Make Modern Interior
@@ -274,7 +273,7 @@ export default function WhyChooseUs() {
             </div>
 
 
-            <div className=" max-w-6xl mx-auto mt-[10rem]" data-aos="fade-left" data-aos-delay="800">
+            <div className=" max-w-6xl mx-auto mt-[10rem]" data-aos="fade-left" data-aos-delay="500">
                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                   <div className="p-5 relative group">
                     <div className="">

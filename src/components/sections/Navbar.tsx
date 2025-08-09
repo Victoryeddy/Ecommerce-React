@@ -12,6 +12,14 @@ export default function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const links = [
+    { path: "/", label: "Home" },
+    { path: "/#aboutUs", label: "About us" },
+    { path: "/#services", label: "Services" },
+    { path: "/#blogs", label: "Blog" },
+    { path: "/#contact", label: "Contact us" },
+  ];
+
   return (
     <>
       <div className="pt-10">
@@ -41,126 +49,32 @@ export default function Navbar() {
             }`}
           >
             <ul className="flex flex-col md:flex-row gap-6 space-x-4">
-              <li className="list-none">
-                <Link
-                  to="/"
-                  className='
-      text-background 
-      no-underline 
-      font-medium
-      relative
-      pb-1
-      after:content-[""]
-      after:absolute
-      after:top-6
-      after:left-0
-      after:w-0
-      after:h-[3px]
-      after:bg-accent
-      hover:after:w-full
-      after:transition-all
-      after:duration-300
-    '
-                >
-                  Home
-                </Link>
-              </li>
-              <li className="list-none">
-                <Link
-                  to="/"
-                  className='
-      text-background 
-      no-underline 
-      font-medium
-      relative
-      pb-1
-      after:content-[""]
-      after:absolute
-      after:top-6
-      after:left-0
-      after:w-0
-      after:h-[3px]
-      after:bg-accent
-      hover:after:w-full
-      after:transition-all
-      after:duration-300
-    '
-                >
-                  About us
-                </Link>
-              </li>
-              <li className="list-none">
-                <Link
-                  to="/services"
-                  className='
-      text-background 
-      no-underline 
-      font-medium
-      relative
-      pb-1
-      after:content-[""]
-      after:absolute
-      after:top-6
-      after:left-0
-      after:w-0
-      after:h-[3px]
-      after:bg-accent
-      hover:after:w-full
-      after:transition-all
-      after:duration-300
-    '
-                >
-                  Services
-                </Link>
-              </li>
-              <li className="list-none">
-                <Link
-                  to="#"
-                  className='
-      text-background 
-      no-underline 
-      font-medium
-      relative
-      pb-1
-      after:content-[""]
-      after:absolute
-      after:top-6
-      after:left-0
-      after:w-0
-      after:h-[3px]
-      after:bg-accent
-      hover:after:w-full
-      after:transition-all
-      after:duration-300
-    '
-                >
-                  Blog
-                </Link>
-              </li>
-              <li className="list-none">
-                <Link
-                  to="#"
-                  className='
-      text-background 
-      no-underline 
-      font-medium
-      relative
-      pb-1
-      after:content-[""]
-      after:absolute
-      after:top-6
-      after:left-0
-      after:w-0
-      after:h-[3px]
-      after:bg-accent
-      hover:after:w-full
-      after:transition-all
-      after:duration-300
-    '
-                >
-                  Contact us
-                </Link>
-              </li>
+              {links.map((link) => (
+                <li key={link.label} className="list-none">
+                  <Link
+                    to={link.path}
+                    className="
+              text-background 
+              no-underline 
+              font-medium
+              relative
+              pb-1
+              after:content-['']
+              after:absolute
+              after:top-6
+              after:left-0
+              after:w-0
+              after:h-[3px]
+              after:bg-accent
+              hover:after:w-full
+              after:transition-all
+              after:duration-300
+            "
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
             </ul>
             <div className="hidden lg:flex lg:ms-[3rem] gap-4 mt-4 md:mt-0 space-x-3">
               <button type="button">

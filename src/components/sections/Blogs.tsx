@@ -5,7 +5,7 @@ import Blog3 from "@/assets/blog3.png";
 export default function Blogs() {
   return (
     <>
-      <div className="bg-neutral min-h-[50vh]">
+      <div className="bg-neutral min-h-[50vh]" id="blogs">
         <div className="container mx-auto px-4">
           <div className="pt-[6rem] pb-[6rem]">
             <div className="max-w-6xl mx-auto">

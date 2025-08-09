@@ -5,9 +5,9 @@
   --radius: 0.625rem;
   --background: #fff;
   --secondary: #2f2f2f;
-  --secondary-light: #6A6A6A;
-  
-  --neutral: #E5E5E5;
+  --secondary-light: #6a6a6a;
+
+  --neutral: #e5e5e5;
   --accent: #f9bf29;
   --header-background: #3a5c4f;
 
@@ -84,6 +84,7 @@
   padding: 0;
   margin: 0;
   font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
   overflow-x: hidden;
 }
 
@@ -98,5 +99,3 @@
   background: var(--primary) !important;
   opacity: 1;
 }
-
-

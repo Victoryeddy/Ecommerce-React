@@ -3,7 +3,7 @@ import Sofa from "@/assets/sofa 1.png";
 export default function Newsletter() {
   return (
     <>
-      <footer className="bg-gray-100 py-12 px-4 md:px-6">
+      <footer className="bg-gray-100 py-12 px-4 md:px-6" id="contact">
         <div className="container mx-auto max-w-6xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
             <div className="space-y-6">
@@ -109,7 +109,7 @@ export default function Newsletter() {
 
           <div className="pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-500 mb-4 md:mb-0">
-              © 2021 Untree.co. All rights reserved.
+              © 2025 Untree.co. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <a
